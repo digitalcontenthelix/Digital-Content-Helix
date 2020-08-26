@@ -413,7 +413,7 @@
           body: urlencoded
         };
 
-        fetch("/contact-form", requestOptions)
+        fetch("https://digitalcontenthelix.azurewebsites.net/contact-form", requestOptions)
           .then(response => {
             if (response.status === 200) {
               alert("We have received your request. We will be in touch shortly.")
